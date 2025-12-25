@@ -91,6 +91,27 @@ export function Offers() {
             </IconButton>
           </Carousel.NextTrigger>
         </Carousel.Control>
+        <Carousel.IndicatorGroup>
+          {properties.map((property, index) => (
+            <Carousel.Indicator
+              key={index}
+              index={index}
+              unstyled
+              _current={{
+                outline: "2px solid currentColor",
+                outlineOffset: "2px",
+              }}
+            >
+              <Image
+                w="20"
+                aspectRatio="16/9"
+                src={property.image}
+                alt={property.title}
+                objectFit="cover"
+              />
+            </Carousel.Indicator>
+          ))}
+        </Carousel.IndicatorGroup>
       </Carousel.Root>
     </Box>
   );
