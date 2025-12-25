@@ -4,6 +4,7 @@ import { Footer } from "@/components/footer";
 import { Nav_bar } from "@/components/nav-bar";
 import { About } from "@/components/About";
 import { Offers } from "@/components/Offers";
+
 import { Hero } from "@/components/hero";
 
 import { Club } from "@/components/Club";
