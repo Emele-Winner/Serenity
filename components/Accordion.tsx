@@ -3,8 +3,6 @@ import { Accordion } from "@chakra-ui/react";
 
 import { Image } from "@chakra-ui/react";
 
-const items = Array.from({ length: 5 });
-
 const items2 = [
   {
     value: "a",
@@ -44,7 +42,7 @@ export function Accordion2() {
         lineHeight={1.2}
         color="black"
       >
-        Got Questions? We've got Answers!
+        Got Questions? We&apos;ve got Answers!
       </Heading>
       <Accordion.Root
         mt="30px"

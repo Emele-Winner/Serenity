@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Heading, IconButton, Span } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading } from "@chakra-ui/react";
 import { AbsoluteCenter } from "@chakra-ui/react";
 export function Club() {
   return (
@@ -19,7 +19,7 @@ export function Club() {
           mb={1}
           color="black"
         >
-          Join the Serenity Insider's Club
+          Join the Serenity Insider&apos;s Club
         </Heading>
         <p className="text-gray-600">
           Sign up for our newsletter and receive exclusive discounts and

@@ -9,10 +9,9 @@ import {
   Link,
 } from "@chakra-ui/react";
 import { useState } from "react";
-import { Grid, GridItem } from "@chakra-ui/react";
-import { Image } from "@chakra-ui/react";
+import { Grid } from "@chakra-ui/react";
+
 export function Footer() {
-  const placement = "start";
   const [newsletterEmail, setNewsletterEmail] = useState("");
 
   const handleSubscribe = () => {
