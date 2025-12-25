@@ -1,6 +1,6 @@
-import { Box, Flex, Heading, IconButton, Span } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 import { Grid, GridItem } from "@chakra-ui/react";
-import { LuPlus, LuStar } from "react-icons/lu";
+
 import { Image } from "@chakra-ui/react";
 export function About() {
   return (

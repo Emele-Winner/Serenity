@@ -34,7 +34,7 @@ export function Offers() {
         lineHeight={1}
         color="black"
       >
-        Limited-Time Offers You Can't Miss!
+        Limited-Time Offers You Can&apos;t Miss!
       </Heading>
       <p className="text-gray-600">
         {" "}

@@ -8,7 +8,7 @@ export function Hero() {
       {" "}
       <Box>
         <Text mt={2}>
-          Let's make your stay <br />
+          Let&apos;s make your stay <br />
           <Span color="gray.500">unforgettable!</Span>
         </Text>
       </Box>

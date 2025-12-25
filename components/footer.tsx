@@ -2,15 +2,11 @@
 import {
   Box,
   Button,
-  Flex,
   Heading,
   HStack,
-  IconButton,
   Input,
   Text,
   Link,
-  List,
-  Span,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { Grid, GridItem } from "@chakra-ui/react";

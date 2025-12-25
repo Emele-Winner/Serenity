@@ -1,26 +1,8 @@
-import {
-  Badge,
-  Box,
-  Button,
-  Carousel,
-  Flex,
-  Heading,
-  HStack,
-  Icon,
-  IconButton,
-  Span,
-} from "@chakra-ui/react";
+import { Box, Heading, Span } from "@chakra-ui/react";
 import { Accordion } from "@chakra-ui/react";
-import {
-  LuChevronDown,
-  LuChevronLeft,
-  LuChevronRight,
-  LuChevronUp,
-  LuPlus,
-  LuStar,
-} from "react-icons/lu";
+
 import { Image } from "@chakra-ui/react";
-import { FaStar } from "react-icons/fa";
+
 const items = Array.from({ length: 5 });
 
 const items2 = [

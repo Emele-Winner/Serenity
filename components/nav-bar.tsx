@@ -1,13 +1,5 @@
-import {
-  Box,
-  Button,
-  Flex,
-  Heading,
-  IconButton,
-  Menu,
-  Portal,
-} from "@chakra-ui/react";
-import { LuMenu, LuPlus, LuStar } from "react-icons/lu";
+import { Box, Button, Flex, Heading, Menu, Portal } from "@chakra-ui/react";
+import { LuPlus, LuStar } from "react-icons/lu";
 const links = [
   { title: "About", href: "#about" },
   { title: "Special Offers", href: "#skills" },

@@ -1,6 +1,5 @@
 import { Box, Button, Flex, Heading, IconButton, Span } from "@chakra-ui/react";
 import { AbsoluteCenter } from "@chakra-ui/react";
-import { Image } from "@chakra-ui/react";
 export function Club() {
   return (
     <Box className="about" mb="100px" p={3} textAlign="left" bgColor="#fafaf8">
